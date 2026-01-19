@@ -1,0 +1,12 @@
+-- WAQTD DETAILS OF THE EMPLOYEE EARNING 7TH MINIMUM SALARY
+
+SELECT sal
+FROM (
+    SELECT ROWNUM AS slno, sal
+    FROM (
+        SELECT DISTINCT sal
+        FROM emp
+        ORDER BY sal
+    )
+)
+WHERE slno = 7;
