@@ -23,4 +23,175 @@ public class TestCheck {
 	}
 }
 	
+--output--
+
+Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "my-practice-API2",
+    "description": "This is a sample repository for testing.",
+    "private": false
+}
+HTTP/1.1 201 Created
+Date: Tue, 20 Jan 2026 05:47:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5825
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+ETag: "3441484d967e40641e0d9cc711879ac06b51435eae849ddd9d6a67e6e1033e25"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:network_configurations, write:packages
+X-Accepted-OAuth-Scopes: public_repo, repo
+Location: https://api.github.com/repos/chandru037/my-practice-API2
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Server: github.com
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4998
+X-RateLimit-Reset: 1768891627
+X-RateLimit-Used: 2
+X-RateLimit-Resource: core
+X-GitHub-Request-Id: 57F8:10F3A4:2505A39:2D88B4B:696F1704
+
+{
+    "id": 1138001242,
+    "node_id": "R_kgDOQ9SFWg",
+    "name": "my-practice-API2",
+    "full_name": "chandru037/my-practice-API2",
+    "private": false,
+    "owner": {
+        "login": "chandru037",
+        "id": 139344120,
+        "node_id": "U_kgDOCE44-A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139344120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chandru037",
+        "html_url": "https://github.com/chandru037",
+        "followers_url": "https://api.github.com/users/chandru037/followers",
+        "following_url": "https://api.github.com/users/chandru037/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chandru037/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chandru037/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chandru037/subscriptions",
+        "organizations_url": "https://api.github.com/users/chandru037/orgs",
+        "repos_url": "https://api.github.com/users/chandru037/repos",
+        "events_url": "https://api.github.com/users/chandru037/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chandru037/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/chandru037/my-practice-API2",
+    "description": "This is a sample repository for testing.",
+    "fork": false,
+    "url": "https://api.github.com/repos/chandru037/my-practice-API2",
+    "forks_url": "https://api.github.com/repos/chandru037/my-practice-API2/forks",
+    "keys_url": "https://api.github.com/repos/chandru037/my-practice-API2/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/chandru037/my-practice-API2/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/chandru037/my-practice-API2/teams",
+    "hooks_url": "https://api.github.com/repos/chandru037/my-practice-API2/hooks",
+    "issue_events_url": "https://api.github.com/repos/chandru037/my-practice-API2/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/chandru037/my-practice-API2/events",
+    "assignees_url": "https://api.github.com/repos/chandru037/my-practice-API2/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/chandru037/my-practice-API2/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/chandru037/my-practice-API2/tags",
+    "blobs_url": "https://api.github.com/repos/chandru037/my-practice-API2/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/chandru037/my-practice-API2/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/chandru037/my-practice-API2/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/chandru037/my-practice-API2/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/chandru037/my-practice-API2/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/chandru037/my-practice-API2/languages",
+    "stargazers_url": "https://api.github.com/repos/chandru037/my-practice-API2/stargazers",
+    "contributors_url": "https://api.github.com/repos/chandru037/my-practice-API2/contributors",
+    "subscribers_url": "https://api.github.com/repos/chandru037/my-practice-API2/subscribers",
+    "subscription_url": "https://api.github.com/repos/chandru037/my-practice-API2/subscription",
+    "commits_url": "https://api.github.com/repos/chandru037/my-practice-API2/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/chandru037/my-practice-API2/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/chandru037/my-practice-API2/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/chandru037/my-practice-API2/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/chandru037/my-practice-API2/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/chandru037/my-practice-API2/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/chandru037/my-practice-API2/merges",
+    "archive_url": "https://api.github.com/repos/chandru037/my-practice-API2/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/chandru037/my-practice-API2/downloads",
+    "issues_url": "https://api.github.com/repos/chandru037/my-practice-API2/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/chandru037/my-practice-API2/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/chandru037/my-practice-API2/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/chandru037/my-practice-API2/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/chandru037/my-practice-API2/labels{/name}",
+    "releases_url": "https://api.github.com/repos/chandru037/my-practice-API2/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/chandru037/my-practice-API2/deployments",
+    "created_at": "2026-01-20T05:47:48Z",
+    "updated_at": "2026-01-20T05:47:48Z",
+    "pushed_at": "2026-01-20T05:47:48Z",
+    "git_url": "git://github.com/chandru037/my-practice-API2.git",
+    "ssh_url": "git@github.com:chandru037/my-practice-API2.git",
+    "clone_url": "https://github.com/chandru037/my-practice-API2.git",
+    "svn_url": "https://github.com/chandru037/my-practice-API2",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "network_count": 0,
+    "subscribers_count": 0
+}
+
 
